@@ -157,6 +157,7 @@ message ExecContext {
   QueryPriority priority = 5;
   string displayable_query = 6;
   string request_id_str = 7;
+  bool is_analyze = 8;
 }
 
 message ExecutePlanRequest {
